@@ -544,3 +544,55 @@ Telegram и Discord — ||две вертикальные черты с двух
 ## конфликт 
 
 ![9](9.png)
+
+
+
+
+
+## Инструкция по работе с удаленным репозиторием
+
+# Клонирование репозитория
+
+git clone https://github.com/nameUser/nameRep.git
+
+<img src="">
+
+# Смотрим какие есть ветки
+
+git branch
+
+<img src="photos/gitBranch.png">
+
+# Создадим свою ветку
+
+git branch name_branch
+
+<img src="photos/gitCreateBranch.png">
+
+# Переключимся на созданную ветку
+
+git checkout name_branch
+
+<img src="photos/gitCheckout.png">
+
+# Добавляем файлы
+
+git add .
+
+# Создаем коммит
+
+git commit -m 'message commit'
+
+<img src="photos/gitCommit.png">
+
+# Показываем ветку github
+
+git push --set-upstream origin name_branch
+
+<img src="photos/gitPushSet.png">
+
+# Принятия/отклонение pull requests
+
+<img src="photos/gitPush.png">
+
+<img src="photos/pull.png">
