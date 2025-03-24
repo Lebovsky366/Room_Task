@@ -566,7 +566,7 @@ git add .
 git commit -m 'message commit'
 # Показываем ветку github
 git push --set-upstream origin name_branch
-#Итог ввода в терминале
+# Итог ввода в терминале
 <img src="17.png">
 
 # Принятия/отклонение pull requests
